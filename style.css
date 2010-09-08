@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    background-color: white;
+    text-align: justify;
+    background: white url(imagens/topo.png) repeat-x scroll left top;
+}
+
+a {
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    border: none;
+}
+
+#imagem_titulo {
+	width: 370px;
+	margin: 0;
+
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+	font-weight: normal;
+    font-size: 75px;
+    font-family: Times, serif;
+    color: black;   
+}
+
+h2 {
+	margin: 20px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+	color: #232F01;
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+}
+
+h3 {
+  	margin: 0px;
+	padding: 0px 0px 10px 0px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #454E55;
+}
+
+p {
+    margin: 0px 0px 15px 0px;
+    padding: 0px 5px;
+}
+
+.p_identado {
+	margin: 0px 0px 15px 0px;
+    padding: 0px 30px;
+}
+}
+
+table {
+	margin: 0px 0px 15px 0px;
+    padding: 0px 5px;
+	font-size: 14px;
+
+}
+
+table tr {
+	height: 50px;
+}
+
+table td {
+	text-align: left;
+	margin: 0;
+	padding: 5px;
+	border: solid black 1px;
+	text-align: center;
+}
+
+.hora {
+	width: 15%;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#topo {
+	width: 900px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+#titulo {
+	float: left;
+	width: 225px;
+	height: 75px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#menu {
+	float: right;
+	width: 500px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0 0 20px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline;
+	text-align: center;
+}
+
+#menu a {
+	float: left;
+    height: 30px;
+	padding: 45px 20px 0px 20px;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #383B3F;
+}
+
+#menu a:hover {
+	background: url(imagens/menu.png) repeat-x left bottom;
+}
+
+#conteudo {
+    width: 900px;
+    margin: auto;
+    position: relative;
+}
+
+#conteudo-central {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 600px;
+    background-color: white;
+}
+
+#info {
+    float: left;
+    width: 260px;
+	background: url(imagens/info-fundo.png) repeat-y left top;
+    font-size: 13px;
+    text-align: center;   
+}
+
+#info-topo {
+	background: url(imagens/info-topo.png) no-repeat left top;
+}
+
+#info-rodape {
+	background: url(imagens/info-rodape.png) no-repeat left bottom;
+	padding: 40px 20px 10px 20px;
+}
+
+#info h3 {
+	color: #14163f;
+}
+
+#info ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin: 0px;
+	padding: 0px 0px 30px 0px;
+}
+
+#info li {
+	margin: 0;
+	padding: 7px 0px;
+	border: none;
+}
+
+#info p {
+    margin: 2px 0;
+}
+
+#programacao {
+    margin: 10px 10px 0px 0px;
+}
+
+#dia1 {
+    margin: 10px 10px 0px 0px;
+}
+
+#dia2 {
+    margin: 10px 10px 0px 0px;
+}
+
+#dia3 {
+    margin: 10px 10px 0px 0px;
+}
